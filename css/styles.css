@@ -79,7 +79,7 @@ img {
   margin: -1px;
 }
 
-/*-----ШАПКА-----*/
+/*-----шапка-----*/
 
 .logo-site {
   margin-right: 93px;
@@ -167,7 +167,7 @@ img {
   color: var(--accent-blue-color);
 }
 
-/*-------ФУТЕР-------*/
+/*-------футер-------*/
 
 .footer {
   padding: 60px 0;
@@ -206,7 +206,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* портфолио */
+/*-----портфолио-----*/
 
 .filter-project-list {
   display: flex;
@@ -276,12 +276,26 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
-/*-----СТУДИЯ-----*/
-/* герой */
+/*-----герой-----*/
+
 .hero-section {
   padding: 200px 0;
-  background-color: var(--contex-bgc-color);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
   text-align: center;
+
+  background-color: #2f303a66;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpeg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -315,6 +329,8 @@ img {
 .hero-bttn:focus {
   background-color: #188ce8;
 }
+
+/*-----студия-----*/
 
 .stem-seaction {
   padding-bottom: 0;
@@ -371,7 +387,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* team */
+/*-----команда-----*/
 
 .team-section {
   background: var(--secondary-bgc-color);
