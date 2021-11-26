@@ -13,6 +13,9 @@
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --hover-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --hover-porfolio-link: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 body {
@@ -193,6 +196,15 @@ img {
   margin-top: 20px;
 }
 
+.footer-logo-link {
+  color: var(--accent-blue-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .logo-another-part {
   color: var(--white-text-color);
 }
@@ -255,7 +267,7 @@ img {
   align-items: center;
   justify-content: center;
   background-color: var(--footer-icon-bgclr);
-  color: #FFFFFF;
+  color: var(--white-text-color);
 }
 
 .footer-socials-icon {
@@ -332,7 +344,7 @@ img {
 
 .works-link:hover,
 .works-link:focus {
-  background-color: var(--secondary-color);
+  box-shadow: var(--hover-porfolio-link);
 }
 
 .projects-info {
@@ -545,11 +557,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: var(--white-prime-bgc); */
-  /* color: var(--icons-color); */
+  background-color: var(--white-prime-bgc);
+  color: var(--icons-color);
 }
 
 .team-social-icon {
+  /* fill: var(--icon-color); */
   fill: currentColor;
 }
 
