@@ -37,6 +37,7 @@ h6 {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 button {
@@ -342,8 +343,8 @@ img {
   letter-spacing: 0.03em;
 }
 
-.works-link:hover,
-.works-link:focus {
+.works-item:hover,
+.works-item:focus {
   box-shadow: var(--hover-porfolio-link);
 }
 
@@ -557,20 +558,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--white-prime-bgc);
-  color: var(--icons-color);
+  background-color: var(--white-text-color);
+  color: var(--icon-color);
 }
 
 .team-social-icon {
-  /* fill: var(--icon-color); */
   fill: currentColor;
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--accent-blue-color);
-  color: var(--white-prime-bgc);
-}
+  color: var(--white-text-color);
+} 
 
 /*-----клиенты-----*/
 
