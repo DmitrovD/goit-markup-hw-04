@@ -343,8 +343,9 @@ img {
   letter-spacing: 0.03em;
 }
 
-.works-item:hover,
-.works-item:focus {
+.works-link:hover,
+.works-link:focus {
+  display: block;
   box-shadow: var(--hover-porfolio-link);
 }
 
